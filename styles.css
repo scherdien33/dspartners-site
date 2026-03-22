@@ -590,6 +590,70 @@ h3 { font-size: 1.15rem; }
 }
 
 /* ----------------------------------------
+   11b. SERVIÇO META (rodapé do card)
+   ---------------------------------------- */
+.service__meta {
+  margin-top: var(--space-sm);
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--color-accent);
+  letter-spacing: 0.02em;
+}
+
+/* ----------------------------------------
+   11c. SEÇÃO REFORMA TRIBUTÁRIA
+   ---------------------------------------- */
+.section-reforma {
+  background-color: #1A3A5C;
+  padding-block: var(--space-2xl);
+}
+
+.reforma__inner {
+  max-width: 800px;
+  margin-inline: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-md);
+}
+
+.reforma__title {
+  font-family: var(--font-title);
+  font-weight: 800;
+  font-size: clamp(1.5rem, 3vw, 2.25rem);
+  line-height: 1.25;
+  color: #FFFFFF;
+}
+
+.reforma__text {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.75;
+  color: rgba(255, 255, 255, 0.9);
+  max-width: 680px;
+}
+
+.btn--reforma {
+  display: inline-flex;
+  align-items: center;
+  background-color: #FFFFFF;
+  color: #1A3A5C;
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 0.9375rem;
+  padding: 0.875rem 2rem;
+  border-radius: var(--border-radius-sm);
+  transition: background-color var(--transition-fast), transform var(--transition-fast);
+  margin-top: var(--space-xs);
+}
+
+.btn--reforma:hover {
+  background-color: #EDF2F8;
+  transform: translateY(-2px);
+}
+
+/* ----------------------------------------
    12. SEÇÃO QUEM SOMOS
    ---------------------------------------- */
 .section-about {
