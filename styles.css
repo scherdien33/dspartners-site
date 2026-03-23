@@ -619,6 +619,8 @@ h3 { font-size: 1.15rem; }
 }
 
 .reforma__title {
+  font-family: var(--font-title);
+  font-weight: 800;
   font-size: clamp(1.5rem, 3vw, 2.25rem);
   line-height: 1.25;
   color: #FFFFFF;
@@ -637,6 +639,7 @@ h3 { font-size: 1.15rem; }
   align-items: center;
   background-color: #FFFFFF;
   color: #1A3A5C;
+  font-family: var(--font-body);
   font-weight: 500;
   font-size: 0.9375rem;
   padding: 0.875rem 2rem;
